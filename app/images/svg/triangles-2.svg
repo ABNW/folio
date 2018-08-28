@@ -1,0 +1,12 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388 330">
+    <style>
+        .st0,.st1{fill:none;stroke:#000;stroke-miterlimit:10}.st1{fill:#f2f2f2}.st2{fill:#aaa}.st2,.st3,.st4{stroke:#000;stroke-miterlimit:10}.st4{stroke:#fff}
+    </style>
+    <image xlink:href="https://www.w3schools.com/w3css/img_snowtops.jpg" x="0" y="0" height="100%" width="100%"/>
+    <path class="st0" d="M179.4 10.6l-62 104.1h124zm114.9 36.7l-87.8 147.3h175.6z"/>
+    <path class="st1" d="M129.2 298.1l61.6-103.5H67.6z"/>
+    <path class="st0" d="M78.3 171.1l29.8-50.1H48.4zm-16.9 33.5l18.5-31h-37zm47.8 119l16.3-27.3H93z"/>
+    <path class="st2" d="M247.9 283.5l-16.3 27.3h32.6zm-211.6-38L6.7 295.2h59.2z"/>
+    <path class="st3" d="M235.5 10.6l-140 234.9h280z"/>
+    <path class="st4" d="M232.4 191.3l-57.9 97.2h115.8z"/>
+</svg>

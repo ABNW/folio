@@ -17,10 +17,12 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat+Subrayada" rel="stylesheet">
     
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.5.11/Rx.js"></script>
   </head>
   <body>
     <!--[if IE]>
@@ -28,23 +30,61 @@
     <![endif]-->
     
     <main>
-      <div class="portfolio-block">
-        <div class="triangle-wrapper">
-          <div class="equilateral-triangle">
-            <div class="equilateral-triangle__img">
+      <div class="project-wrapper">
+        <div class="project project--left">
+          <div class="project-images">
+            <svg id="project-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388 330">
+                <defs>
+                  <clipPath id="cut-off-bottom">
+                    <path class="st3" d="M235.5 10.6l-140 234.9h280z"/>
+                  </clipPath>
+                </defs>
+                <path class="st0" d="M179.4 10.6l-62 104.1h124zm114.9 36.7l-87.8 147.3h175.6z"/>
+                <path class="st1" d="M129.2 298.1l61.6-103.5H67.6z"/>
+                <path class="st0" d="M78.3 171.1l29.8-50.1H48.4zm-16.9 33.5l18.5-31h-37zm47.8 119l16.3-27.3H93z"/>
+                <path class="st2" d="M247.9 283.5l-16.3 27.3h32.6zm-211.6-38L6.7 295.2h59.2z"/>
+                <path class="st3" d="M235.5 10.6l-140 234.9h280z"/>
+                <image xlink:href="https://www.w3schools.com/w3css/img_snowtops.jpg" x="10" y="-15" height="300" width="400" clip-path="url(#cut-off-bottom)"/>                
+                <path class="st4" d="M232.4 191.3l-57.9 97.2h115.8z"/>                
+              </svg>    
             </div>
+            <div class="project-text">
+              <h2>Project 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore provident incidunt magni aliquid alias culpa perferendis eaque est, error dolorum eligendi ratione autem cumque sunt, itaque nemo quos aspernatur.</p>
+            </div>
+        </div>
+      </div>
+      <div class="project-wrapper ">
+        <div class="project project--right">
+          <div class="project-text">
+            <h2>Project 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil labore provident incidunt magni aliquid alias culpa perferendis eaque est, error dolorum eligendi ratione autem cumque sunt, itaque nemo quos aspernatur.</p>
           </div>
-
+          <div class="project-images">
+            <svg id="project-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 346">
+              <clipPath id="cut-off-right">
+                  <path class="st3" d="M223.1 38.9L100.9 250.6h244.4z"/>
+              </clipPath>
+              <path class="st0" d="M119.1 167.8l70.8-122.7H48.3zm104-163l-46.6 80.7h93.2z"/>
+              <path class="st1" d="M63.1 86.8l-46.6 80.7h93.2z"/>
+              <path class="st0" d="M144.6 214.4l24.2-42h-48.5z"/>
+              <path class="st2" d="M29.2 196.8l14.1-24.4H15.1z"/>
+              <path class="st0" d="M104.4 315.3l46.4-80.4H58zm14.7 25.9l14.5-25.1h-29zm59.6-65.8l-23.2 40.2h46.4zM20.8 292.2L7.4 315.5h26.9z"/>
+              <path class="st3" d="M223.1 38.9L100.9 250.6h244.4z"/>
+              <image xlink:href="https://www.w3schools.com/w3css/img_lights.jpg" x="0" y="20" height="250" width="350" clip-path="url(#cut-off-right)"/>
+              <path class="st4" d="M220.3 201.7l-50.5 87.6h101.1z"/>                    
+              <!--https://www.w3schools.com/w3css/img_lights.jpg -->
+            </svg>  
+          </div>   
         </div>
       </div>
     </main>
-    
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->

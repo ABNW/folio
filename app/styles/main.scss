@@ -1,14 +1,10 @@
 // bower:scss
 // endbower
-
-@import 'components/portfolio-block';
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+@import 'variables/colours';
+@import 'reset/normalize';
+@import 'reset/reset';
+@import 'components/triangle';
+@import 'components/project';
 
 body {
   background: #fafafa;

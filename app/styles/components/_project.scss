@@ -1,0 +1,43 @@
+html, body {
+    font-size: 16px;
+}
+
+p{
+    line-height: 1.6;
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.project-wrapper {
+    display: flex;
+}
+
+.project {
+    background-color: $grey;
+    height: 32em;
+    display: flex;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.project-text {
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }    
+}
+
+.project-images {
+    flex-basis: 50%;
+
+    svg {
+        height: 32em;
+    }
+}
+

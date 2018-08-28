@@ -1,0 +1,20 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 353 346">
+    <style>
+        .st0,.st1,.st2{fill:none;stroke:#000;stroke-miterlimit:10}.st1,.st2{fill:#f2f2f2}.st2{fill:#aaa}.st3{clip-path:url(#SVGID_2_)}.st4{stroke:#fff;stroke-miterlimit:10}
+    </style>
+    <path class="st0" d="M119.1 167.8l70.8-122.7H48.3zM223.1 4.8l-46.6 80.7h93.2z"/>
+    <path class="st1" d="M63.1 86.8l-46.6 80.7h93.2z"/>
+    <path class="st0" d="M144.6 214.4l24.2-42h-48.5z"/>
+    <path class="st2" d="M29.2 196.8l14.1-24.4H15.1z"/>
+    <path class="st0" d="M104.4 315.3l46.4-80.4H58zM119.1 341.2l14.5-25.1h-29zM178.7 275.4l-23.2 40.2h46.4zM20.8 292.2L7.4 315.5h26.9z"/>
+    <g>
+        <defs>
+            <path id="SVGID_1_" d="M223.1 38.9L100.9 250.6h244.4z"/>
+        </defs>
+        <clipPath id="SVGID_2_">
+            <use xlink:href="#SVGID_1_" overflow="visible"/>
+        </clipPath>
+        <image width="600" height="400" id="Layer_0_1_" clip-path="url(#SVGID_2_)" xlink:href="https://www.w3schools.com/w3css/img_lights.jpg" transform="translate(48.3 27) scale(.5833)" overflow="visible"/>
+    </g>
+    <path class="st4" d="M220.3 201.7l-50.5 87.6h101.1z"/>
+</svg>

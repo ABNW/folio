@@ -1,0 +1,80 @@
+.portfolio-block {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #2d2d2d;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.triangle-wrapper {
+  overflow: hidden;
+  height: 450px;
+  width: 450px;
+  position: relative;
+  margin: 0 auto;
+  transform-origin: top left;
+  top: 25px;
+}
+
+.equilateral-triangle,
+.equilateral-triangle__img {
+  width: 100%;
+  height: 100%;
+}
+
+.equilateral-triangle {
+  /* 117 = 135 * 0.866 */
+  overflow: hidden;
+  position: absolute;
+  transform: skewX(-45deg);
+  transform-origin: 100% 0;
+  &:after {
+    height: 200px;
+    width: 200px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: orange;
+    transform: skew(45deg);
+  }
+}
+
+.equilateral-triangle__img {
+  background-color: white;
+  &:hover {
+    background-color: pink;
+  }
+}
+
+.st0,
+.st1 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10
+}
+
+.st1 {
+  fill: #f2f2f2
+}
+
+.st2 {
+  fill: #aaa
+}
+
+.st2,
+.st3,
+.st4 {
+  stroke: #000;
+  stroke-miterlimit: 10
+}
+
+.st4 {
+  stroke: #fff;
+  fill: transparent;
+}
+
+image {
+  margin: 0px auto;
+}
