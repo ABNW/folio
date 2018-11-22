@@ -1,5 +1,6 @@
 html, body {
     font-size: 16px;
+    background-color: $grey;
 }
 
 p{
@@ -17,16 +18,21 @@ h1, h2, h3, h4, h5 {
 
 .project {
     background-color: $grey;
-    height: 32em;
+    height: 36em;
     display: flex;
     width: 100%;
     margin-bottom: 3em;
+    position: relative;
 }
 
 .project-text {
     text-align: center;
     margin: auto;
     padding: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 400px;
     h2 {
         font-size: 3rem;
         margin-bottom: 1rem;
@@ -35,9 +41,31 @@ h1, h2, h3, h4, h5 {
 
 .project-images {
     flex-basis: 50%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
 
     svg {
         height: 32em;
     }
 }
 
+.project--left {
+    .project-images {
+        margin-right: auto;
+    }
+
+    .project-text {
+        right: 50px;
+    }
+}
+
+.project--right {
+    .project-images {
+        margin-left: auto;
+    }
+
+    .project-text {
+        left: 50px;
+    }
+}
